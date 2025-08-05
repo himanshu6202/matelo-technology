@@ -15,6 +15,7 @@ locomotiveScroll
   return (
     <>
      <div className=' bg-[#E9E1D4]'>
+      <Home />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
